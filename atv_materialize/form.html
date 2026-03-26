@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: justify;
+            color: white;
+        }
+        input {
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+        <nav style="height: 125px; background-color: black;">
+            <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo"><img src="img/logo_blacksabbath.png" alt="logo do black sabbath" style="width: 220px; height: 100px; margin-top: 10px;"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="form.html">Formulário</a></li>
+                <li><a href="musicas.html">Músicas</a></li>
+            </ul>
+            </div>
+        </nav>
+        <main>
+        <div class="row">
+            <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Primeiro Nome</label>
+                </div>
+                <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Sobrenome</label>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Senha</label>
+                </div>
+            </div>
+           
+            </form>
+        </div>
+        <ul class="pagination">
+            <li class="disabled"><a href="index.html"><i class="material-icons"><</i></a></li>
+            <li class="waves-effect"><a href="index.html">1</a></li>
+            <li class="active purple"><a href="form.html">2</a></li>
+            <li class="waves-effect"><a href="musicas.html">3</a></li>
+            <li class="waves-effect disabled"><a href="musicas.html"><i class="material-icons">></i></a></li>
+        </ul>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+</body>
+</html>
