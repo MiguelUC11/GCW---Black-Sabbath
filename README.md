@@ -1,5 +1,4 @@
-
-##Black Sabbath - Projeto
+**Black Sabbath - Projeto**
 
 **Objetivo**  
 Disseminar informações sobre a banda Black Sabbath.
